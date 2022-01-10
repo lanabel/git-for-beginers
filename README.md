@@ -1,1 +1,2 @@
-# git-for-beginers
+# git-for-beginners
+CV1,2
