@@ -6,10 +6,22 @@
     font-size: 30px;
 }
 
-.header{
-    font-size: 20px;
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
+.header{
+    font-size: 20px;
+    border: 1px solid red;
+}
+.main{
+    border: 1px solid black;
+}
 .section1{
     font-size: 10px;
 }
@@ -33,4 +45,7 @@
 
 .sk-codepen:before {
     content: "\f1cb";
+}
+.footer{
+    border: 1px solid red;
 }
