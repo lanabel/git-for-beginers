@@ -8,36 +8,41 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body class="body">
-    <header class="header">
-        <nav>
+    <header class="header container">
+        <nav class="nav">
             <h3>My CV!</h3>
-            <Ul>
-                <li> <p>img1 </p> </li>
-                <li> <p>img2</p> </li>
+            <Ul class="nav-list">
+                <li class="nav-items"> <a href="#contacts" class="nav-link">Contacts</a> </li>
+                <li class="nav-items"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-items"><a href="#skills" class="nav-link">Skills</a></li>
             </Ul>
         </nav>
     </header>
     <main class="main">
-        <section class="section1">
-            <div>
-                <p>Summary</p>
-            </div>
-            <div>
-                <p>Skills</p>
-                <ul>
-                    <li> 
-                        <i class="sk sk-html5" aria-hidden="true"></i>
-                        "HTML5"
-                    </li>
-                    <li> <i class="sk sk-css3" aria-hidden="true"></i>
-                        "CSS3"
-                    </li>
-                    <li> <i class="sk sk-codepen" aria-hidden="true"></i>
+        <div class="container">
+            <section class="section1">
+               <div>
+                   <p>Summary</p>
+                </div>
+                <div>
+                   <p>Skills</p>
+                    <ul>
+                         <li> 
+                         <i class="sk sk-html5" aria-hidden="true"></i>
+                         "HTML5"
+                         </li>
+                        <li> <i class="sk sk-css3" aria-hidden="true"></i>
+                            "CSS3"
+                        </li>
+                        <li> <i class="sk sk-codepen" aria-hidden="true"></i>
                         "JavaScript Basics"
-                    </li>
-                </ul>
-            </div>
-        </section>
+                        </li>
+                    </ul>
+                </div> 
+            
+            </section>
+        
+        
             <section class="section2">
                 <div>
                     <p>Diploma</p>
@@ -47,19 +52,25 @@
                 </div>
             </section>
 
-        <p class="classA"> Hello! It is me! Lana</p> 
-        <h2> This is Git Test </h2>
-        
+            <p class="classA"> Hello! It is me! Lana</p> 
+            <h2> This is Git Test </h2>
+        </div>
     </main>
     
    
 
-   <footer class="footer">
-       "@2022"
-       <p>name</p>
-       <img src="<img src="https://rs.school/images/rs_school_js.svg" alt="logo rs_school_js">
-       <a class="rs-link" href="https://rs.school/js/"></a>
-   </footer>
+    <footer class="footer">
+        <div class="container"> 
+
+        "@2022"
+        <p>name</p>
+        <img src="<img src="https://rs.school/images/rs_school_js.svg" alt="logo rs_school_js">
+        <a class="rs-link" href="https://rs.school/js/"></a>
+       
+       </div>
+
+        
+    </footer>
 
 
 </body>
