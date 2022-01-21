@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 .classA {
     font-size: 30px;
 }
@@ -9,6 +13,24 @@
 .section1{
     font-size: 10px;
 }
+
 .section2{
     font-size: 20px;
+}
+
+.sk {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sk-css3:before {
+    content: "\f13c";
+}
+
+.sk-codepen:before {
+    content: "\f1cb";
 }
